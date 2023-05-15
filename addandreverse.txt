@@ -1,0 +1,38 @@
+package may6test;
+
+public class UserMainCode {
+	
+	 public static int addAndReverse(int[] arr, int num) {
+	        int sum = 0;
+	        for (int i = 0; i < arr.length; i++) {
+	            if (arr[i] > num) {
+	                sum += arr[i];
+	            }
+	        }
+	        int reversed = 0;
+	        while (sum > 0) {
+	            reversed = reversed * 10 + sum % 10;
+	            sum /= 10;
+	        }
+	        return reversed;
+	    }
+
+}
+
+import java.util.Scanner;
+
+public class Main {
+	
+	 public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+	        int n = scanner.nextInt();
+	        int[] arr = new int[n];
+	        for (int i = 0; i < n; i++) {
+	            arr[i] = scanner.nextInt();
+	        }
+	        int num = scanner.nextInt();
+	        int result = UserMainCode.addAndReverse(arr, num);
+	        System.out.println(result);
+	    }
+
+}
