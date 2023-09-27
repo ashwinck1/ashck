@@ -1,0 +1,26 @@
+function finalPrice(orderArray){
+	let totalAmount=0;
+	
+	for(let i=0;i<orderArray.length;i++){
+		const orderData=JSON.parse(orderAray[i]);
+		unitCost=orderData.unitCost;
+		Quantity=orderData.Quantity;
+		totalAmount=unitCost*Quantity;
+	}
+	return totalAmount;
+}
+
+
+
+Pattern p=Pattern.compile("");
+Matcher m=p.m(email);
+return m.matches();
+
+
+select distinct rev_name from reviewer r join  movies m on r.rev_id=m.rev_id where mov_name in ('Veg Lollipop','biscuit') 
+	order by rev_id desc;
+
+
+select salary from employee where salary between 2500 and 4500 and not in (2800,3200) order by ________ desc;
+
+
