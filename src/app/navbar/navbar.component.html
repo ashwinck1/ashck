@@ -1,0 +1,19 @@
+<nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../../assets/image/LOGO.png" alt="logo" height="30px" class="d-inline-block align-text-top">
+        Flight Routes
+      </a>
+    </div>
+    <div class="navbarsearch">
+        <input type="text" [(ngModel)]="searchQuery" (input)="onInputChange()" placeholder="Search Airport">
+        
+      </div>
+      
+      
+</nav>
+<ul *ngIf="showSuggestions" class="suggestions">
+  <li class="table1" *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)">
+    {{ suggestion.code }} - {{ suggestion.name }} -{{suggestion.state}} -{{suggestion.city}}-{{suggestion.country}}
+  </li>
+</ul>

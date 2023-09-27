@@ -1,0 +1,40 @@
+/* Add these styles to your component's CSS file or global styles */
+ 
+.container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffff;
+  }
+  
+  .table th {
+    background-color: #ffff;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #ffff;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #ffff;
+  }
+  
+  /* Add more CSS as needed for additional styling */

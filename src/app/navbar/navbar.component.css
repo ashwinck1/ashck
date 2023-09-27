@@ -1,0 +1,25 @@
+.d-inline-block 
+{
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Merienda', cursive;
+}
+.navbar-brand
+{
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Merienda', cursive;
+}
+.table1
+{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-left: 900px;
+}
+.navbarsearch
+{
+    margin-right: 100px;
+    color: #61892f;
+}

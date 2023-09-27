@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #222629;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+   /* Add this line to styles.css */
+@import "~bootstrap/dist/css/bootstrap.css";
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;700&family=Fuggles&family=Jost:wght@300&family=Merienda:wght@600&display=swap');
